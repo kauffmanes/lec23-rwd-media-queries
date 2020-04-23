@@ -40,11 +40,16 @@ section {
     margin-right: 3%;
 }
 
+section:last-child {
+    margin-right: 0;
+}
+
 section p {
     font-weight: 100;
     line-height: 130%;
 }
 
-section:last-child {
-    margin-right: 0;
+
+section img {
+    max-width: 100%;
 }
