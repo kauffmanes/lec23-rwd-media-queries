@@ -53,3 +53,36 @@ section p {
 section img {
     max-width: 100%;
 }
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+        display: initial;
+    }
+
+    section {
+        max-width: 100%;
+        margin-right: 0;
+        padding: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: .5rem;
+    }
+
+}
