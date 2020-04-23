@@ -1,0 +1,50 @@
+body {
+    background: #1d1d1d;
+    min-height: 100vh;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ddd;
+}
+
+header {
+    background: black;
+    border-bottom: solid 1px limegreen;
+    padding: 2rem;
+}
+
+header h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 1.5rem;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: limegreen;
+}
+
+main {
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+}
+
+section {
+    max-width: 300px;
+    margin-right: 3%;
+}
+
+section p {
+    font-weight: 100;
+    line-height: 130%;
+}
+
+section:last-child {
+    margin-right: 0;
+}
